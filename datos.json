@@ -167,17 +167,30 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "tuyxwlixj4",
+          "id": "tbxqfublmi",
           "subtareas": [],
           "enlaces": [],
-          "nombre": "Creación de Grupos",
+          "nombre": "Poner presupuesto Julio",
           "resp": "Ignacio",
           "etiqueta": "Todos",
           "estado": "por_iniciar",
-          "fecha": "2026-06-22",
+          "fecha": "2026-06-29",
           "avance": 0,
           "coment": "",
           "fechafin": ""
+        },
+        {
+          "avance": 0,
+          "coment": "",
+          "fechafin": "",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "Todos",
+          "id": "tuyxwlixj4",
+          "nombre": "Creación de Grupos",
+          "resp": "Ignacio",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-22"
         }
       ]
     }
