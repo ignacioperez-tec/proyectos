@@ -167,23 +167,38 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "tbxqfublmi",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Poner presupuesto Julio",
-          "resp": "Ignacio",
-          "etiqueta": "Todos",
-          "estado": "por_iniciar",
-          "fecha": "2026-06-29",
           "avance": 0,
           "coment": "",
-          "fechafin": ""
+          "fechafin": "",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "Todos",
+          "id": "ti8hoog9d0",
+          "nombre": "Presupuestos de Julio",
+          "resp": "Ignacio",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-22"
         },
         {
           "avance": 0,
           "coment": "",
           "fechafin": "",
-          "subtareas": [],
+          "subtareas": [
+            {
+              "id": "sjyhiw2jit",
+              "nombre": "Grupo TLG",
+              "estado": "por_iniciar",
+              "avance": 0,
+              "coment": ""
+            },
+            {
+              "id": "spmkcqjlvj",
+              "nombre": "Grupo AV",
+              "estado": "por_iniciar",
+              "avance": 0,
+              "coment": ""
+            }
+          ],
           "enlaces": [],
           "etiqueta": "Todos",
           "id": "tuyxwlixj4",
