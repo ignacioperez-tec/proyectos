@@ -1,0 +1,188 @@
+{
+  "projects": [
+    {
+      "id": "pp2bvx5k31",
+      "nombre": "MUNDIAL",
+      "estado": "piloto",
+      "tareas": [
+        {
+          "avance": 30,
+          "coment": "Se enviaron los creativos por AT de la campaña de Mundial para implementar entre el viernes 19 de junio y el lunes 22 de junio.",
+          "fechafin": "",
+          "subtareas": [
+            {
+              "id": "s836wylwmm",
+              "nombre": "Envío de solicitud",
+              "estado": "terminada",
+              "avance": 0,
+              "coment": "Se envío la solicitud en el documento enlazado, en la hoja \"06192026 - The Learning Gate S\""
+            }
+          ],
+          "enlaces": [
+            {
+              "id": "l1l37iaphx",
+              "nombre": "Link a documento de creativos.",
+              "url": "https://docs.google.com/spreadsheets/d/1BfCt9LVBR7qPxog6r243dofCGhVkoxYrBkVJX3uDdWY/edit?usp=sharing",
+              "tipo": "hoja"
+            }
+          ],
+          "etiqueta": "TLG",
+          "id": "tafstsh8gn",
+          "nombre": "Implementación de creativos por área temática Mundial",
+          "resp": "Ignacio",
+          "estado": "en_proceso",
+          "fecha": "2026-06-19"
+        },
+        {
+          "avance": 0,
+          "coment": "",
+          "fechafin": "2026-06-19",
+          "subtareas": [
+            {
+              "id": "sjk5dgewct",
+              "nombre": "Convertir la campaña de mundial a leadgen por problema de pixel.",
+              "estado": "terminada",
+              "avance": 0,
+              "coment": "Al no tener funcionamiento del pixel, se convirió a Leadgen por iniciativa de la agencia. Fue aprobado por Ricardo el 18 de junio.\nNombre de campaña: SmartUp_TLG_Mundial_NA_MX_Meta_Leadgen_Inorganico_PROS"
+            },
+            {
+              "id": "sgy5eq7r08",
+              "nombre": "Corrección de parámetros de programas_tlg y UTMs",
+              "estado": "terminada",
+              "avance": 0,
+              "coment": "Se envío una corrección en los programas del dropdown y se cambiaron los UTMs a Leadgen."
+            }
+          ],
+          "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "tz24ufrl9i",
+          "nombre": "Implementación de campaña Mundial Leaden",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-18"
+        },
+        {
+          "avance": 80,
+          "coment": "18jun26_263_Solicitud_TLG_Estrategia_Meta\n\nSe implementó internamente el primer creativo para salir horas antes del partido de México vs Corea. El resto de creativos se implementaron el 19 de junio.",
+          "fechafin": "",
+          "subtareas": [
+            {
+              "id": "sizufqeo9i",
+              "nombre": "Envío de solicitud",
+              "estado": "terminada",
+              "avance": 0,
+              "coment": "Se envió la solicitud. La implementación estuvo demorada y se pausó por problemas en la implementación del pixel en la landing page.\n"
+            },
+            {
+              "id": "scanvdpjar",
+              "nombre": "Arreglo de pixel en campaña Mundial",
+              "estado": "en_proceso",
+              "avance": 0,
+              "coment": ""
+            }
+          ],
+          "enlaces": [
+            {
+              "id": "lc058zi6u5",
+              "nombre": "Documento de referencia para táctica",
+              "url": "https://docs.google.com/spreadsheets/d/1RAe5F-8-tPUErjmVhcdP9-jTkF5tw2PnrzS8HsH1x0M/edit?usp=sharing",
+              "tipo": "hoja"
+            }
+          ],
+          "etiqueta": "TLG",
+          "id": "tjiq9s1hdz",
+          "nombre": "Implementación de campaña ConersionWeb",
+          "resp": "Ignacio",
+          "estado": "en_proceso",
+          "fecha": "2026-06-18"
+        }
+      ]
+    },
+    {
+      "id": "p1wqapxhyr",
+      "nombre": "LINKEDIN",
+      "estado": "piloto",
+      "tareas": [
+        {
+          "avance": 95,
+          "coment": "Se creó la campaña de C-level en la cuenta. Ajustando segementos y sumando los creativos.",
+          "fechafin": "2026-06-19",
+          "subtareas": [
+            {
+              "id": "swkzu4z3l8",
+              "nombre": "Creación de segmento \"C-Level\"",
+              "estado": "terminada",
+              "avance": 0,
+              "coment": "En conjunto con Ziany, se implementó el nuevo segmento dirigido a C-level en los 3 adsets de la campaña.\nNombre: Seleccionar fila 1\nSmartUp_AV_Liderazgo_NA_MX_Linkedin_Leadgen_Inorganico_PROS"
+            }
+          ],
+          "enlaces": [
+            {
+              "id": "lqtyg1dokd",
+              "nombre": "Link a adsets",
+              "url": "https://www.linkedin.com/campaignmanager/accounts/516848286/campaigns?businessId=7330706539525103617&campaignGroupIds=%5B1146805924%5D",
+              "tipo": "link"
+            }
+          ],
+          "etiqueta": "AV",
+          "id": "tzjzaawahl",
+          "nombre": "Creación de campaña C-Level",
+          "resp": "Ignacio",
+          "estado": "en_proceso",
+          "fecha": "2026-06-19"
+        },
+        {
+          "avance": 0,
+          "coment": "Se implementaron nuevos creativos con estética enfocada a linkedin.",
+          "fechafin": "2026-06-19",
+          "subtareas": [
+            {
+              "id": "s1bbhqn5jv",
+              "nombre": "Envío de solicitud de nuevos creativos.",
+              "estado": "terminada",
+              "avance": 0,
+              "coment": "Son los creativos/campañas resaltadas en morado en el documento enlazado."
+            }
+          ],
+          "enlaces": [
+            {
+              "id": "le6wj3foq1",
+              "nombre": "Documento de referencia Linkedin",
+              "url": "https://docs.google.com/spreadsheets/d/1zrn8CzKnX6W301dElUCV404erDHwnm9aL0Jd8o8BLro/edit?usp=sharing",
+              "tipo": "hoja"
+            }
+          ],
+          "etiqueta": "TLG",
+          "id": "t8gsn7k97i",
+          "nombre": "Implementación de nuevos creativos Linkedin",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "id": "p6yv9ymhsx",
+      "nombre": "Mixilo",
+      "estado": "piloto",
+      "tareas": [
+        {
+          "id": "tuyxwlixj4",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Creación de Grupos",
+          "resp": "Ignacio",
+          "etiqueta": "Todos",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-22",
+          "avance": 0,
+          "coment": "",
+          "fechafin": ""
+        }
+      ]
+    }
+  ],
+  "activeId": "p6yv9ymhsx",
+  "titulo": "Proyectos Estratégicos",
+  "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
+}
