@@ -271,6 +271,20 @@
   body.readonly .editable{cursor:default}
   body.readonly .editable:hover{box-shadow:none}
 
+  /* ===== Tarjeta "Tareas para hoy" ===== */
+  .today-card{display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;box-shadow:var(--shadow);position:relative;overflow:hidden;min-width:262px;max-width:330px}
+  .today-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--blue)}
+  .today-list{display:flex;flex-direction:column;gap:7px;margin-top:6px;max-height:178px;overflow-y:auto}
+  .today-item{display:flex;align-items:center;gap:8px}
+  .today-dot{width:8px;height:8px;border-radius:50%;flex:none}
+  .today-name{font-size:13px;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
+  .today-tag{font-family:'Space Mono',monospace;font-size:9.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:999px;flex:none}
+  .today-tag-hoy{color:var(--blue);background:var(--blue-soft)}
+  .today-tag-late{color:#B0344B;background:#FBE7EB}
+  .today-tag-proc{color:var(--amber);background:var(--amber-soft)}
+  .today-tag-ini{color:var(--slate);background:var(--slate-soft)}
+  .today-empty{font-family:'Space Mono',monospace;font-size:11.5px;color:var(--green);font-weight:700;margin-top:2px}
+
   /* ===== Vista de impresión / PDF ===== */
   #print-root{display:none}
   @media print{
@@ -324,15 +338,10 @@
         <p class="subtitle editable" id="doc-desc" contenteditable="true" spellcheck="false" data-ph="Descripción del documento…"
             title="Haz clic para editar la descripción" onblur="saveDesc(this)">Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa.</p>
       </div>
-      <div class="status-card sc-piloto" id="status-card">
-        <div class="sc-k">Estatus del proyecto</div>
-        <div class="sc-name" id="sc-name">Proyecto A</div>
-        <select class="proj-status ps-piloto" id="proj-status" onchange="setProjectStatus(this.value)" title="Cambia la etapa del proyecto">
-          <option value="piloto">Piloto</option>
-          <option value="escalado">Escalado</option>
-          <option value="abandonado">Abandonado</option>
-        </select>
-        <div class="sc-line" id="sc-line">0 de 0 tareas terminadas</div>
+      <div class="today-card" id="today-card">
+        <div class="sc-k" id="today-k">Tareas para hoy</div>
+        <div class="sc-name" id="today-proj">Proyecto</div>
+        <div class="today-list" id="today-list"></div>
       </div>
     </div>
     <div class="tabs" id="tabs"></div>
@@ -742,7 +751,7 @@ function importData(input){
 }
 
 /* ---------------- Render ---------------- */
-function render(){renderTabs();renderFilters();renderProjectStatus();renderTable();}
+function render(){renderTabs();renderFilters();renderToday();renderTable();}
 
 function renderFilters(){
   const tags=[...new Set(active().tareas.map(t=>t.etiqueta).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
@@ -765,25 +774,32 @@ function renderTabs(){
   }).join('')+`<button class="tab-add" onclick="newProject()">+ Nuevo proyecto</button>`;
 }
 
-function renderProjectStatus(){
+function renderToday(){
   const ap=active();
-  const st=PROJ_STATUS[ap.estado]?ap.estado:'piloto';
-  document.getElementById('sc-name').textContent=ap.nombre;
-  const card=document.getElementById('status-card');
-  card.className='status-card sc-'+st;
-  const sel=document.getElementById('proj-status');
-  sel.value=st;
-  sel.className='proj-status ps-'+st;
-  const done=ap.tareas.filter(t=>t.estado==='terminada').length;
-  document.getElementById('sc-line').textContent=`${done} de ${ap.tareas.length} tareas terminadas`;
-}
-async function setProjectStatus(v){
-  const ap=active();
-  ap.estado=PROJ_STATUS[v]?v:'piloto';
-  await persist();
-  renderProjectStatus();
-  renderTabs();
-  flash('estatus del proyecto actualizado');
+  const h=today();
+  document.getElementById('today-proj').textContent=ap.nombre;
+  /* "Para hoy": en proceso (cualquier fecha) o por iniciar sin fecha futura */
+  const items=ap.tareas.filter(t=>{
+    if(t.estado==='terminada')return false;
+    if(t.estado==='en_proceso')return true;
+    return !t.fecha || t.fecha<=h;
+  }).sort((a,b)=>(a.fecha||'9999').localeCompare(b.fecha||'9999'));
+  document.getElementById('today-k').textContent='Tareas para hoy'+(items.length?' · '+items.length:'');
+  const list=document.getElementById('today-list');
+  if(!items.length){list.innerHTML='<div class="today-empty">Sin pendientes para hoy ✓</div>';return;}
+  const stc={por_iniciar:'var(--slate)',en_proceso:'var(--amber)'};
+  list.innerHTML=items.map(t=>{
+    let tag,cls;
+    if(t.fecha===h){tag='Hoy';cls='today-tag-hoy';}
+    else if(t.estado==='en_proceso'){tag='En proceso';cls='today-tag-proc';}
+    else if(t.fecha&&t.fecha<h){tag='Atrasada';cls='today-tag-late';}  /* por iniciar y ya pasó su fecha */
+    else {tag='Por iniciar';cls='today-tag-ini';}
+    return `<div class="today-item">
+      <span class="today-dot" style="background:${stc[t.estado]||'var(--slate)'}"></span>
+      <span class="today-name" title="${esc(t.nombre)}${t.resp?(' — '+esc(t.resp)):''}">${esc(t.nombre)}</span>
+      <span class="today-tag ${cls}">${tag}</span>
+    </div>`;
+  }).join('');
 }
 
 function renderTable(){
