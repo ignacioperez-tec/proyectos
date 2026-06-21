@@ -360,7 +360,7 @@
   <div class="toolbar">
     <div class="filters" id="filters"></div>
     <div class="tools-right">
-      <button class="btn-tool" onclick="exportData()" title="Descargar un respaldo de todo tu avance">
+      <button class="btn-tool" onclick="exportData()" title="Guardar un respaldo como datos.json (eliges dónde)">
         <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 1.5v8M4.5 6L8 9.5 11.5 6M2.5 12.5v1a1 1 0 001 1h9a1 1 0 001-1v-1"/></svg>
         Respaldar
       </button>
@@ -699,12 +699,22 @@ async function persist(){
 }
 
 /* ---------------- Respaldo / Restauración ---------------- */
-function exportData(){
+async function exportData(){
+  const json=JSON.stringify(state,null,2);
+  /* Si el navegador lo permite, deja elegir DÓNDE guardar (p. ej. tu carpeta de OneDrive) */
+  if(FSA){
+    try{
+      const h=await window.showSaveFilePicker({suggestedName:'datos.json',types:[{description:'JSON',accept:{'application/json':['.json']}}]});
+      const w=await h.createWritable(); await w.write(json); await w.close();
+      flash('respaldo guardado'); return;
+    }catch(e){ if(e&&e.name==='AbortError')return; /* si falla, cae a descarga */ }
+  }
+  /* Respaldo: descarga clásica con nombre datos.json */
   try{
-    const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+    const blob=new Blob([json],{type:'application/json'});
     const url=URL.createObjectURL(blob);
     const a=document.createElement('a');
-    a.href=url; a.download='proyectos-estrategicos-'+today()+'.json';
+    a.href=url; a.download='datos.json';
     document.body.appendChild(a); a.click(); a.remove();
     URL.revokeObjectURL(url);
     flash('respaldo descargado');
