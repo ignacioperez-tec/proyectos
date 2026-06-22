@@ -104,6 +104,19 @@
       "estado": "piloto",
       "tareas": [
         {
+          "id": "tfx6pxpykk",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Asegurar visitibildiad completa en Powerbi",
+          "resp": "Rafael",
+          "etiqueta": "Todos",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-23",
+          "avance": 0,
+          "coment": "Asegurar que las campañas de linkedin tengan visibilidad en el tablero de Powerbi.",
+          "fechafin": ""
+        },
+        {
           "avance": 95,
           "coment": "Se creó la campaña de C-level en la cuenta. Ajustando segementos y sumando los creativos.",
           "fechafin": "2026-06-19",
@@ -193,9 +206,21 @@
           "fecha": "2026-06-22"
         }
       ]
+    },
+    {
+      "id": "pxo9uk1whl",
+      "nombre": "Tiktok",
+      "estado": "piloto",
+      "tareas": []
+    },
+    {
+      "id": "pwlf88k3jk",
+      "nombre": "Winclap Meta",
+      "estado": "piloto",
+      "tareas": []
     }
   ],
-  "activeId": "p6yv9ymhsx",
+  "activeId": "pxo9uk1whl",
   "titulo": "Proyectos Estratégicos",
   "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
 }
