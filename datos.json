@@ -167,6 +167,19 @@
       "estado": "piloto",
       "tareas": [
         {
+          "id": "tue2nujjdg",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Enviar sheets con información de las campañas Conversión Web",
+          "resp": "Ignacio",
+          "etiqueta": "Todos",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-22",
+          "avance": 0,
+          "coment": "Un sheets con un listado de las nuevas campañas de meta de form web, junto con las conversiones 1 por columna (leads, oportunidad, formulario incompleto, inscriptos, etc.) para el periodo 22/05 - 19/06",
+          "fechafin": ""
+        },
+        {
           "avance": 0,
           "coment": "",
           "fechafin": "",
