@@ -104,6 +104,32 @@
       "estado": "piloto",
       "tareas": [
         {
+          "id": "t50reqayjs",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Ver calidad de leads de Project Manager en sesión",
+          "resp": "Ignacio",
+          "etiqueta": "TLG",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-23",
+          "avance": 0,
+          "coment": "Hablar con Karla Piña y Yolanda para ver como viene la calidad de leads de linkedin.",
+          "fechafin": ""
+        },
+        {
+          "id": "ty3ututya8",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Ver calidad de leads de Project Manager en sesión",
+          "resp": "Ignacio",
+          "etiqueta": "TLG",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-23",
+          "avance": 0,
+          "coment": "Hablar con Karla Piña y Yolanda para ver como viene la calidad de leads de linkedin.",
+          "fechafin": ""
+        },
+        {
           "id": "tfx6pxpykk",
           "subtareas": [],
           "enlaces": [],
@@ -234,7 +260,7 @@
           "etiqueta": "Todas",
           "estado": "en_proceso",
           "fecha": "2026-06-22",
-          "avance": 0,
+          "avance": 60,
           "coment": "Revisar que campañas no generacn ingresos y tienen un ROAS <1 para apagar.",
           "fechafin": ""
         },
@@ -271,9 +297,29 @@
       "nombre": "Winclap Meta",
       "estado": "piloto",
       "tareas": []
+    },
+    {
+      "id": "pozl21y9ln",
+      "nombre": "17K leads",
+      "estado": "piloto",
+      "tareas": [
+        {
+          "id": "t6qqbl0g5p",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Revisar gasto por semana los últimos 28 días",
+          "resp": "Rafael",
+          "etiqueta": "Todas",
+          "estado": "en_proceso",
+          "fecha": "2026-06-22",
+          "avance": 30,
+          "coment": "Ver como se han comportado los aumentos de presupuesto en las últimas semanas para ver como podemos avanzar con los 17,000 leads.",
+          "fechafin": ""
+        }
+      ]
     }
   ],
-  "activeId": "pwlf88k3jk",
+  "activeId": "pozl21y9ln",
   "titulo": "Proyectos Estratégicos",
   "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
 }
