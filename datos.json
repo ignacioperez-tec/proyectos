@@ -232,7 +232,7 @@
           "nombre": "Apagar campañas sin rentabilidad",
           "resp": "Ignacio",
           "etiqueta": "Todas",
-          "estado": "por_iniciar",
+          "estado": "en_proceso",
           "fecha": "2026-06-22",
           "avance": 0,
           "coment": "Revisar que campañas no generacn ingresos y tienen un ROAS <1 para apagar.",
@@ -273,7 +273,7 @@
       "tareas": []
     }
   ],
-  "activeId": "pxo9uk1whl",
+  "activeId": "pwlf88k3jk",
   "titulo": "Proyectos Estratégicos",
   "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
 }
