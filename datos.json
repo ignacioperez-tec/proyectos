@@ -6,9 +6,9 @@
       "estado": "piloto",
       "tareas": [
         {
-          "avance": 30,
+          "avance": 80,
           "coment": "Se enviaron los creativos por AT de la campaña de Mundial para implementar entre el viernes 19 de junio y el lunes 22 de junio.",
-          "fechafin": "",
+          "fechafin": "2026-06-22",
           "subtareas": [
             {
               "id": "s836wylwmm",
@@ -30,7 +30,7 @@
           "id": "tafstsh8gn",
           "nombre": "Implementación de creativos por área temática Mundial",
           "resp": "Ignacio",
-          "estado": "en_proceso",
+          "estado": "terminada",
           "fecha": "2026-06-19"
         },
         {
@@ -211,7 +211,60 @@
       "id": "pxo9uk1whl",
       "nombre": "Tiktok",
       "estado": "piloto",
-      "tareas": []
+      "tareas": [
+        {
+          "id": "twfot3pnvz",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Crear plan para asegurar inversión total de contrato Winclap",
+          "resp": "Ignacio",
+          "etiqueta": "Todas",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-22",
+          "avance": 0,
+          "coment": "",
+          "fechafin": ""
+        },
+        {
+          "id": "tbg4n4zzsr",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Apagar campañas sin rentabilidad",
+          "resp": "Ignacio",
+          "etiqueta": "Todas",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-22",
+          "avance": 0,
+          "coment": "Revisar que campañas no generacn ingresos y tienen un ROAS <1 para apagar.",
+          "fechafin": ""
+        },
+        {
+          "id": "t8eaq6456z",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Revisar opciones de Tiktok Symphony",
+          "resp": "Ignacio",
+          "etiqueta": "TLG",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-23",
+          "avance": 0,
+          "coment": "Ver que se puede hacer con Tiktok Symphony para tener más variedad creativa en la cuenta.",
+          "fechafin": ""
+        },
+        {
+          "id": "tdygrhu52d",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Agregar más creativos a campañas de LIVE",
+          "resp": "Hugo",
+          "etiqueta": "Live",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-22",
+          "avance": 0,
+          "coment": "",
+          "fechafin": ""
+        }
+      ]
     },
     {
       "id": "pwlf88k3jk",
