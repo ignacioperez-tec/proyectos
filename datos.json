@@ -104,28 +104,30 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "t50reqayjs",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Ver calidad de leads de Project Manager en sesión",
-          "resp": "Ignacio",
-          "etiqueta": "TLG",
-          "estado": "por_iniciar",
-          "fecha": "2026-06-23",
-          "avance": 0,
-          "coment": "Hablar con Karla Piña y Yolanda para ver como viene la calidad de leads de linkedin.",
-          "fechafin": ""
-        },
-        {
           "id": "ty3ututya8",
-          "subtareas": [],
+          "subtareas": [
+            {
+              "id": "srzxi5w5u8",
+              "nombre": "Sesión 23 de Junio",
+              "estado": "terminada",
+              "avance": 0,
+              "coment": "Se habló sobre el avance del embudo. Es positivo."
+            },
+            {
+              "id": "srds3swvpz",
+              "nombre": "Revisar con asesores que atendieron los leads como percibieron el perfilamiento.",
+              "estado": "en_proceso",
+              "avance": 20,
+              "coment": "Se identificaron que asesores atendieron a esos leads. Se va a revisar con ellos como viene."
+            }
+          ],
           "enlaces": [],
           "nombre": "Ver calidad de leads de Project Manager en sesión",
           "resp": "Ignacio",
           "etiqueta": "TLG",
-          "estado": "por_iniciar",
+          "estado": "en_proceso",
           "fecha": "2026-06-23",
-          "avance": 0,
+          "avance": 65,
           "coment": "Hablar con Karla Piña y Yolanda para ver como viene la calidad de leads de linkedin.",
           "fechafin": ""
         },
@@ -145,7 +147,7 @@
         {
           "avance": 95,
           "coment": "Se creó la campaña de C-level en la cuenta. Ajustando segementos y sumando los creativos.",
-          "fechafin": "2026-06-19",
+          "fechafin": "2026-06-23",
           "subtareas": [
             {
               "id": "swkzu4z3l8",
@@ -165,9 +167,9 @@
           ],
           "etiqueta": "AV",
           "id": "tzjzaawahl",
-          "nombre": "Creación de campaña C-Level",
+          "nombre": "Configuración de campaña C-Level",
           "resp": "Ignacio",
-          "estado": "en_proceso",
+          "estado": "terminada",
           "fecha": "2026-06-19"
         },
         {
@@ -207,14 +209,22 @@
       "tareas": [
         {
           "id": "tue2nujjdg",
-          "subtareas": [],
+          "subtareas": [
+            {
+              "id": "sojwg6sdwy",
+              "nombre": "Revisión de trazabilidad con Rafael",
+              "estado": "en_proceso",
+              "avance": 80,
+              "coment": "Revisando si se atribuyen correctamente las campañas al UTM."
+            }
+          ],
           "enlaces": [],
           "nombre": "Enviar sheets con información de las campañas Conversión Web",
           "resp": "Ignacio",
           "etiqueta": "Todos",
-          "estado": "por_iniciar",
+          "estado": "en_proceso",
           "fecha": "2026-06-22",
-          "avance": 0,
+          "avance": 30,
           "coment": "Un sheets con un listado de las nuevas campañas de meta de form web, junto con las conversiones 1 por columna (leads, oportunidad, formulario incompleto, inscriptos, etc.) para el periodo 22/05 - 19/06",
           "fechafin": ""
         },
@@ -271,9 +281,9 @@
           "nombre": "Revisar opciones de Tiktok Symphony",
           "resp": "Ignacio",
           "etiqueta": "TLG",
-          "estado": "por_iniciar",
+          "estado": "en_proceso",
           "fecha": "2026-06-23",
-          "avance": 0,
+          "avance": 30,
           "coment": "Ver que se puede hacer con Tiktok Symphony para tener más variedad creativa en la cuenta.",
           "fechafin": ""
         },
@@ -319,7 +329,7 @@
       ]
     }
   ],
-  "activeId": "pozl21y9ln",
+  "activeId": "p1wqapxhyr",
   "titulo": "Proyectos Estratégicos",
   "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
 }
