@@ -6,6 +6,32 @@
       "estado": "piloto",
       "tareas": [
         {
+          "id": "tp79wz173m",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Creativos en Aula Virtual",
+          "resp": "Ignacio",
+          "etiqueta": "Aula Virtual",
+          "estado": "en_proceso",
+          "fecha": "2026-06-29",
+          "avance": 0,
+          "coment": "Subir todos los creativos que apliquen en Aula Virtual",
+          "fechafin": ""
+        },
+        {
+          "id": "tul0p7f319",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Apagados de anuncios de Mundial con CPL alto",
+          "resp": "Ignacio",
+          "etiqueta": "TLG",
+          "estado": "terminada",
+          "fecha": "2026-06-26",
+          "avance": 0,
+          "coment": "",
+          "fechafin": "2026-06-26"
+        },
+        {
           "avance": 80,
           "coment": "Se enviaron los creativos por AT de la campaña de Mundial para implementar entre el viernes 19 de junio y el lunes 22 de junio.",
           "fechafin": "2026-06-22",
@@ -104,7 +130,22 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "ty3ututya8",
+          "avance": 0,
+          "coment": "Los leads estaban atascados en el workflow de Husbpot al middleware, el parámetro de tlg_enviar viene como \"Si\" en husbpot pero el valor que se debe enviar de plataforma es \"true\".\nCorregido y los workflows se disparan correctamente.",
+          "fechafin": "2026-06-25",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "td7g6y2ht7",
+          "nombre": "Revisión de leads en middleware",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-24"
+        },
+        {
+          "avance": 65,
+          "coment": "Hablar con Karla Piña y Yolanda para ver como viene la calidad de leads de linkedin.",
+          "fechafin": "",
           "subtareas": [
             {
               "id": "srzxi5w5u8",
@@ -122,27 +163,25 @@
             }
           ],
           "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "ty3ututya8",
           "nombre": "Ver calidad de leads de Project Manager en sesión",
           "resp": "Ignacio",
-          "etiqueta": "TLG",
           "estado": "en_proceso",
-          "fecha": "2026-06-23",
-          "avance": 65,
-          "coment": "Hablar con Karla Piña y Yolanda para ver como viene la calidad de leads de linkedin.",
-          "fechafin": ""
+          "fecha": "2026-06-23"
         },
         {
-          "id": "tfx6pxpykk",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Asegurar visitibildiad completa en Powerbi",
-          "resp": "Rafael",
-          "etiqueta": "Todos",
-          "estado": "por_iniciar",
-          "fecha": "2026-06-23",
           "avance": 0,
           "coment": "Asegurar que las campañas de linkedin tengan visibilidad en el tablero de Powerbi.",
-          "fechafin": ""
+          "fechafin": "",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "Todos",
+          "id": "tfx6pxpykk",
+          "nombre": "Asegurar visitibildiad completa en Powerbi",
+          "resp": "Rafael",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-23"
         },
         {
           "avance": 95,
@@ -208,7 +247,35 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "tue2nujjdg",
+          "id": "tg3okmrkyt",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Crear grupo de optimización general",
+          "resp": "Ignacio",
+          "etiqueta": "Aula Virtual",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-29",
+          "avance": 0,
+          "coment": "",
+          "fechafin": ""
+        },
+        {
+          "id": "tuwqygubsj",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Crear grupo de optimización general",
+          "resp": "Ignacio",
+          "etiqueta": "TLG",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-29",
+          "avance": 0,
+          "coment": "",
+          "fechafin": ""
+        },
+        {
+          "avance": 30,
+          "coment": "Un sheets con un listado de las nuevas campañas de meta de form web, junto con las conversiones 1 por columna (leads, oportunidad, formulario incompleto, inscriptos, etc.) para el periodo 22/05 - 19/06",
+          "fechafin": "2026-06-25",
           "subtareas": [
             {
               "id": "sojwg6sdwy",
@@ -219,14 +286,12 @@
             }
           ],
           "enlaces": [],
+          "etiqueta": "Todos",
+          "id": "tue2nujjdg",
           "nombre": "Enviar sheets con información de las campañas Conversión Web",
           "resp": "Ignacio",
-          "etiqueta": "Todos",
           "estado": "en_proceso",
-          "fecha": "2026-06-22",
-          "avance": 30,
-          "coment": "Un sheets con un listado de las nuevas campañas de meta de form web, junto con las conversiones 1 por columna (leads, oportunidad, formulario incompleto, inscriptos, etc.) para el periodo 22/05 - 19/06",
-          "fechafin": ""
+          "fecha": "2026-06-22"
         },
         {
           "avance": 0,
@@ -249,56 +314,69 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "twfot3pnvz",
+          "id": "te0ooxjrwz",
           "subtareas": [],
           "enlaces": [],
-          "nombre": "Crear plan para asegurar inversión total de contrato Winclap",
-          "resp": "Ignacio",
-          "etiqueta": "Todas",
-          "estado": "por_iniciar",
-          "fecha": "2026-06-22",
-          "avance": 0,
-          "coment": "",
-          "fechafin": ""
-        },
-        {
-          "id": "tbg4n4zzsr",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Apagar campañas sin rentabilidad",
-          "resp": "Ignacio",
-          "etiqueta": "Todas",
-          "estado": "en_proceso",
-          "fecha": "2026-06-22",
-          "avance": 60,
-          "coment": "Revisar que campañas no generacn ingresos y tienen un ROAS <1 para apagar.",
-          "fechafin": ""
-        },
-        {
-          "id": "t8eaq6456z",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Revisar opciones de Tiktok Symphony",
+          "nombre": "Arreglar conexión rota de formularios con Hubspot",
           "resp": "Ignacio",
           "etiqueta": "TLG",
           "estado": "en_proceso",
-          "fecha": "2026-06-23",
-          "avance": 30,
-          "coment": "Ver que se puede hacer con Tiktok Symphony para tener más variedad creativa en la cuenta.",
-          "fechafin": ""
-        },
-        {
-          "id": "tdygrhu52d",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Agregar más creativos a campañas de LIVE",
-          "resp": "Hugo",
-          "etiqueta": "Live",
-          "estado": "por_iniciar",
-          "fecha": "2026-06-22",
+          "fecha": "2026-06-25",
           "avance": 0,
           "coment": "",
           "fechafin": ""
+        },
+        {
+          "avance": 40,
+          "coment": "",
+          "fechafin": "2026-06-26",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "Todas",
+          "id": "twfot3pnvz",
+          "nombre": "Crear plan para asegurar inversión total de contrato Winclap",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-22"
+        },
+        {
+          "avance": 60,
+          "coment": "Revisar que campañas no generacn ingresos y tienen un ROAS <1 para apagar.",
+          "fechafin": "2026-06-25",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "Todas",
+          "id": "tbg4n4zzsr",
+          "nombre": "Apagar campañas sin rentabilidad",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-22"
+        },
+        {
+          "avance": 30,
+          "coment": "Ver que se puede hacer con Tiktok Symphony para tener más variedad creativa en la cuenta.",
+          "fechafin": "",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "t8eaq6456z",
+          "nombre": "Revisar opciones de Tiktok Symphony",
+          "resp": "Ignacio",
+          "estado": "en_proceso",
+          "fecha": "2026-06-23"
+        },
+        {
+          "avance": 0,
+          "coment": "",
+          "fechafin": "",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "Live",
+          "id": "tdygrhu52d",
+          "nombre": "Agregar más creativos a campañas de LIVE",
+          "resp": "Hugo",
+          "estado": "por_iniciar",
+          "fecha": "2026-06-22"
         }
       ]
     },
@@ -314,22 +392,120 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "t6qqbl0g5p",
+          "id": "thvm21g8e5",
           "subtareas": [],
           "enlaces": [],
-          "nombre": "Revisar gasto por semana los últimos 28 días",
-          "resp": "Rafael",
-          "etiqueta": "Todas",
+          "nombre": "Revisión de cuenta Google para diagnosticar caida",
+          "resp": "Ignacio",
+          "etiqueta": "Aula Virtual",
           "estado": "en_proceso",
-          "fecha": "2026-06-22",
+          "fecha": "2026-06-26",
+          "avance": 20,
+          "coment": "Solicitud hecha a Smartup.",
+          "fechafin": ""
+        },
+        {
+          "id": "tvf19ydx3p",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Revisión de cuenta Google para diagnosticar caida",
+          "resp": "Ignacio",
+          "etiqueta": "TLG",
+          "estado": "en_proceso",
+          "fecha": "2026-06-26",
+          "avance": 20,
+          "coment": "Solicitud hecha a Smartup.",
+          "fechafin": ""
+        },
+        {
+          "id": "tqp32ip49n",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Aumento Live Meta",
+          "resp": "Hugo",
+          "etiqueta": "Live",
+          "estado": "terminada",
+          "fecha": "2026-06-25",
+          "avance": 0,
+          "coment": "Aumento realizado por oportunidades identificadas en el medio y modalidad.",
+          "fechafin": "2026-06-25"
+        },
+        {
+          "id": "t96wf63zfo",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Aumento TLG Meta",
+          "resp": "Ignacio",
+          "etiqueta": "TLG",
+          "estado": "terminada",
+          "fecha": "2026-06-25",
+          "avance": 0,
+          "coment": "Aumento realizado por oportunidades identificadas en el medio y modalidad.",
+          "fechafin": "2026-06-25"
+        },
+        {
           "avance": 30,
           "coment": "Ver como se han comportado los aumentos de presupuesto en las últimas semanas para ver como podemos avanzar con los 17,000 leads.",
+          "fechafin": "",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "Todas",
+          "id": "t6qqbl0g5p",
+          "nombre": "Revisar gasto por semana los últimos 28 días",
+          "resp": "Rafael",
+          "estado": "en_proceso",
+          "fecha": "2026-06-22"
+        }
+      ]
+    },
+    {
+      "id": "pxdw91pa8b",
+      "nombre": "Becas",
+      "estado": "piloto",
+      "tareas": [
+        {
+          "id": "ty0xrp1r9j",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Enviada la solicitud de campaña en Aula Virtual",
+          "resp": "Ignacio",
+          "etiqueta": "Aula Virtual",
+          "estado": "en_proceso",
+          "fecha": "2026-06-29",
+          "avance": 40,
+          "coment": "Solicitud enviada.",
           "fechafin": ""
+        },
+        {
+          "id": "thsuo7mzwa",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Enviada segunda tanda de creativos con % de beca",
+          "resp": "Ignacio",
+          "etiqueta": "",
+          "estado": "terminada",
+          "fecha": "2026-06-26",
+          "avance": 0,
+          "coment": "Se actualizaron los artes para ajustar los copys a las becas.",
+          "fechafin": "2026-06-27"
+        },
+        {
+          "avance": 0,
+          "coment": "Lanzar las campañas con creativos de mundial.",
+          "fechafin": "2026-06-25",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "t7gr5mzp00",
+          "nombre": "Lanzamiento de campañas de Becas TLG temática mundial",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-24"
         }
       ]
     }
   ],
-  "activeId": "p1wqapxhyr",
+  "activeId": "p6yv9ymhsx",
   "titulo": "Proyectos Estratégicos",
   "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
 }
