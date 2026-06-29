@@ -384,7 +384,21 @@
       "id": "pwlf88k3jk",
       "nombre": "Winclap Meta",
       "estado": "piloto",
-      "tareas": []
+      "tareas": [
+        {
+          "id": "tei6lg4xlv",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Revisar Inscritos y CPL de las últimas 3 semanas",
+          "resp": "Ignacio",
+          "etiqueta": "TLG",
+          "estado": "en_proceso",
+          "fecha": "2026-06-29",
+          "avance": 55,
+          "coment": "Ver como viene el performance de la última tanda de creativos.",
+          "fechafin": ""
+        }
+      ]
     },
     {
       "id": "pozl21y9ln",
@@ -505,7 +519,7 @@
       ]
     }
   ],
-  "activeId": "pozl21y9ln",
+  "activeId": "pwlf88k3jk",
   "titulo": "Proyectos Estratégicos",
   "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
 }
