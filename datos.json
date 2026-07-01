@@ -247,6 +247,19 @@
       "estado": "piloto",
       "tareas": [
         {
+          "id": "tka568qe04",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Sumar las campañas de Live y Presencial a Mixilo",
+          "resp": "Juan Pablo",
+          "etiqueta": "Analytics",
+          "estado": "por_iniciar",
+          "fecha": "2026-07-01",
+          "avance": 0,
+          "coment": "",
+          "fechafin": ""
+        },
+        {
           "avance": 0,
           "coment": "",
           "fechafin": "2026-07-01",
@@ -292,6 +305,19 @@
       "nombre": "Tiktok",
       "estado": "piloto",
       "tareas": [
+        {
+          "id": "tgyhlx2cb0",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Apagado de campañas de Aula Virtual",
+          "resp": "Ignacio",
+          "etiqueta": "Aula Virtual",
+          "estado": "terminada",
+          "fecha": "2026-07-01",
+          "avance": 0,
+          "coment": "Se apagaron las campañas de Aula Virtual por bajo performance comercial.",
+          "fechafin": "2026-07-01"
+        },
         {
           "avance": 0,
           "coment": "",
@@ -457,16 +483,29 @@
       "estado": "piloto",
       "tareas": [
         {
+          "id": "thxvidy66z",
+          "subtareas": [],
+          "enlaces": [],
+          "nombre": "Nuevos creativos de Becas",
+          "resp": "Ignacio",
+          "etiqueta": "Todas",
+          "estado": "en_proceso",
+          "fecha": "2026-07-01",
+          "avance": 35,
+          "coment": "Enviar Reels y Carruseles para campaña de becas.",
+          "fechafin": ""
+        },
+        {
           "avance": 40,
           "coment": "Solicitud enviada.",
-          "fechafin": "",
+          "fechafin": "2026-07-01",
           "subtareas": [],
           "enlaces": [],
           "etiqueta": "Aula Virtual",
           "id": "ty0xrp1r9j",
           "nombre": "Enviada la solicitud de campaña en Aula Virtual",
           "resp": "Ignacio",
-          "estado": "en_proceso",
+          "estado": "terminada",
           "fecha": "2026-06-29"
         },
         {
@@ -498,7 +537,7 @@
       ]
     }
   ],
-  "activeId": "pp2bvx5k31",
+  "activeId": "p1wqapxhyr",
   "titulo": "Proyectos Estratégicos",
   "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
 }
