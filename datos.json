@@ -6,30 +6,30 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "tp79wz173m",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Creativos en Aula Virtual",
-          "resp": "Ignacio",
-          "etiqueta": "Aula Virtual",
-          "estado": "en_proceso",
-          "fecha": "2026-06-29",
           "avance": 0,
           "coment": "Subir todos los creativos que apliquen en Aula Virtual",
-          "fechafin": ""
-        },
-        {
-          "id": "tul0p7f319",
+          "fechafin": "",
           "subtareas": [],
           "enlaces": [],
-          "nombre": "Apagados de anuncios de Mundial con CPL alto",
+          "etiqueta": "Aula Virtual",
+          "id": "tp79wz173m",
+          "nombre": "Creativos en Aula Virtual",
           "resp": "Ignacio",
-          "etiqueta": "TLG",
-          "estado": "terminada",
-          "fecha": "2026-06-26",
+          "estado": "en_proceso",
+          "fecha": "2026-06-29"
+        },
+        {
           "avance": 0,
           "coment": "",
-          "fechafin": "2026-06-26"
+          "fechafin": "2026-06-26",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "tul0p7f319",
+          "nombre": "Apagados de anuncios de Mundial con CPL alto",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-26"
         },
         {
           "avance": 80,
@@ -247,63 +247,42 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "tg3okmrkyt",
+          "avance": 0,
+          "coment": "",
+          "fechafin": "2026-07-01",
           "subtareas": [],
           "enlaces": [],
-          "nombre": "Crear grupo de optimización general",
-          "resp": "Ignacio",
           "etiqueta": "Aula Virtual",
-          "estado": "por_iniciar",
-          "fecha": "2026-06-29",
-          "avance": 0,
-          "coment": "",
-          "fechafin": ""
-        },
-        {
-          "id": "tuwqygubsj",
-          "subtareas": [],
-          "enlaces": [],
+          "id": "tg3okmrkyt",
           "nombre": "Crear grupo de optimización general",
           "resp": "Ignacio",
-          "etiqueta": "TLG",
-          "estado": "por_iniciar",
-          "fecha": "2026-06-29",
-          "avance": 0,
-          "coment": "",
-          "fechafin": ""
+          "estado": "terminada",
+          "fecha": "2026-06-29"
         },
         {
-          "avance": 30,
-          "coment": "Un sheets con un listado de las nuevas campañas de meta de form web, junto con las conversiones 1 por columna (leads, oportunidad, formulario incompleto, inscriptos, etc.) para el periodo 22/05 - 19/06",
-          "fechafin": "2026-06-25",
-          "subtareas": [
-            {
-              "id": "sojwg6sdwy",
-              "nombre": "Revisión de trazabilidad con Rafael",
-              "estado": "en_proceso",
-              "avance": 80,
-              "coment": "Revisando si se atribuyen correctamente las campañas al UTM."
-            }
-          ],
+          "avance": 0,
+          "coment": "",
+          "fechafin": "2026-07-01",
+          "subtareas": [],
           "enlaces": [],
-          "etiqueta": "Todos",
-          "id": "tue2nujjdg",
-          "nombre": "Enviar sheets con información de las campañas Conversión Web",
+          "etiqueta": "TLG",
+          "id": "tuwqygubsj",
+          "nombre": "Crear grupo de optimización general",
           "resp": "Ignacio",
-          "estado": "en_proceso",
-          "fecha": "2026-06-22"
+          "estado": "terminada",
+          "fecha": "2026-06-29"
         },
         {
           "avance": 0,
-          "coment": "",
-          "fechafin": "",
+          "coment": "Calculado con run rate de gasto diario.",
+          "fechafin": "2026-07-01",
           "subtareas": [],
           "enlaces": [],
           "etiqueta": "Todos",
           "id": "ti8hoog9d0",
           "nombre": "Presupuestos de Julio",
           "resp": "Ignacio",
-          "estado": "por_iniciar",
+          "estado": "terminada",
           "fecha": "2026-06-22"
         }
       ]
@@ -314,17 +293,17 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "te0ooxjrwz",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Arreglar conexión rota de formularios con Hubspot",
-          "resp": "Ignacio",
-          "etiqueta": "TLG",
-          "estado": "en_proceso",
-          "fecha": "2026-06-25",
           "avance": 0,
           "coment": "",
-          "fechafin": ""
+          "fechafin": "",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "te0ooxjrwz",
+          "nombre": "Arreglar conexión rota de formularios con Hubspot",
+          "resp": "Ignacio",
+          "estado": "en_proceso",
+          "fecha": "2026-06-25"
         },
         {
           "avance": 40,
@@ -386,17 +365,17 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "tei6lg4xlv",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Revisar Inscritos y CPL de las últimas 3 semanas",
-          "resp": "Ignacio",
-          "etiqueta": "TLG",
-          "estado": "en_proceso",
-          "fecha": "2026-06-29",
           "avance": 55,
           "coment": "Ver como viene el performance de la última tanda de creativos.",
-          "fechafin": ""
+          "fechafin": "",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "tei6lg4xlv",
+          "nombre": "Revisar Inscritos y CPL de las últimas 3 semanas",
+          "resp": "Ignacio",
+          "estado": "en_proceso",
+          "fecha": "2026-06-29"
         }
       ]
     },
@@ -406,56 +385,56 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "thvm21g8e5",
+          "avance": 20,
+          "coment": "Solicitud hecha a Smartup.\nLa caida fue por la exlusión de segmentos del 50% percentil bajo de ingresos y personas menores de 25 años.",
+          "fechafin": "2026-07-01",
           "subtareas": [],
           "enlaces": [],
-          "nombre": "Revisión de cuenta Google para diagnosticar caida",
-          "resp": "Ignacio",
           "etiqueta": "Aula Virtual",
-          "estado": "en_proceso",
-          "fecha": "2026-06-26",
-          "avance": 20,
-          "coment": "Solicitud hecha a Smartup.",
-          "fechafin": ""
-        },
-        {
-          "id": "tvf19ydx3p",
-          "subtareas": [],
-          "enlaces": [],
+          "id": "thvm21g8e5",
           "nombre": "Revisión de cuenta Google para diagnosticar caida",
           "resp": "Ignacio",
-          "etiqueta": "TLG",
-          "estado": "en_proceso",
-          "fecha": "2026-06-26",
-          "avance": 20,
-          "coment": "Solicitud hecha a Smartup.",
-          "fechafin": ""
+          "estado": "terminada",
+          "fecha": "2026-06-26"
         },
         {
-          "id": "tqp32ip49n",
+          "avance": 20,
+          "coment": "Solicitud hecha a Smartup.\nLa caida fue por la exlusión de segmentos del 50% percentil bajo de ingresos y personas menores de 25 años.",
+          "fechafin": "2026-07-01",
           "subtareas": [],
           "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "tvf19ydx3p",
+          "nombre": "Revisión de cuenta Google para diagnosticar caida",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-26"
+        },
+        {
+          "avance": 0,
+          "coment": "Aumento realizado por oportunidades identificadas en el medio y modalidad.",
+          "fechafin": "2026-06-25",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "Live",
+          "id": "tqp32ip49n",
           "nombre": "Aumento Live Meta",
           "resp": "Hugo",
-          "etiqueta": "Live",
           "estado": "terminada",
-          "fecha": "2026-06-25",
-          "avance": 0,
-          "coment": "Aumento realizado por oportunidades identificadas en el medio y modalidad.",
-          "fechafin": "2026-06-25"
+          "fecha": "2026-06-25"
         },
         {
-          "id": "t96wf63zfo",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Aumento TLG Meta",
-          "resp": "Ignacio",
-          "etiqueta": "TLG",
-          "estado": "terminada",
-          "fecha": "2026-06-25",
           "avance": 0,
           "coment": "Aumento realizado por oportunidades identificadas en el medio y modalidad.",
-          "fechafin": "2026-06-25"
+          "fechafin": "2026-06-25",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "TLG",
+          "id": "t96wf63zfo",
+          "nombre": "Aumento TLG Meta",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-25"
         },
         {
           "avance": 30,
@@ -478,30 +457,30 @@
       "estado": "piloto",
       "tareas": [
         {
-          "id": "ty0xrp1r9j",
-          "subtareas": [],
-          "enlaces": [],
-          "nombre": "Enviada la solicitud de campaña en Aula Virtual",
-          "resp": "Ignacio",
-          "etiqueta": "Aula Virtual",
-          "estado": "en_proceso",
-          "fecha": "2026-06-29",
           "avance": 40,
           "coment": "Solicitud enviada.",
-          "fechafin": ""
-        },
-        {
-          "id": "thsuo7mzwa",
+          "fechafin": "",
           "subtareas": [],
           "enlaces": [],
-          "nombre": "Enviada segunda tanda de creativos con % de beca",
+          "etiqueta": "Aula Virtual",
+          "id": "ty0xrp1r9j",
+          "nombre": "Enviada la solicitud de campaña en Aula Virtual",
           "resp": "Ignacio",
-          "etiqueta": "",
-          "estado": "terminada",
-          "fecha": "2026-06-26",
+          "estado": "en_proceso",
+          "fecha": "2026-06-29"
+        },
+        {
           "avance": 0,
           "coment": "Se actualizaron los artes para ajustar los copys a las becas.",
-          "fechafin": "2026-06-27"
+          "fechafin": "2026-06-27",
+          "subtareas": [],
+          "enlaces": [],
+          "etiqueta": "",
+          "id": "thsuo7mzwa",
+          "nombre": "Enviada segunda tanda de creativos con % de beca",
+          "resp": "Ignacio",
+          "estado": "terminada",
+          "fecha": "2026-06-26"
         },
         {
           "avance": 0,
@@ -519,7 +498,7 @@
       ]
     }
   ],
-  "activeId": "pwlf88k3jk",
+  "activeId": "pp2bvx5k31",
   "titulo": "Proyectos Estratégicos",
   "descripcion": "Seguimiento de los proyectos estratégicos mapeados en el área: responsables, frentes de trabajo, estados y avance, con subtareas y archivos por iniciativa."
 }
